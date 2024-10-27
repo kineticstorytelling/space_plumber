@@ -6,5 +6,7 @@ const Experience = () => {
             <boxBufferGeometry />
             <MeshNormalMaterial />            
         </mesh>
-    )
-}
+    );
+};
+
+export default Experience;
