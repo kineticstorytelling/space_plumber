@@ -1,7 +1,7 @@
 const Experience = () => {
     return(
         <mesh>
-            <boxBufferGeometry />
+            <boxGeometry />
             <meshNormalMaterial />            
         </mesh>
     );

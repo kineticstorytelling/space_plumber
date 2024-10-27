@@ -4,10 +4,12 @@ import Experience from './components/Experience'
 function App() {
 
   return (
+    <>
     <Canvas>
       <Experience />      
     </Canvas>
+    </>
   )
 }
 
-export default App
+export default App;
