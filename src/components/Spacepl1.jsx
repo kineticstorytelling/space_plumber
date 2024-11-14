@@ -28,4 +28,4 @@ export function Model(props) {
 
 useGLTF.preload('/spacepl1.glb')
 
-// This is the 3D model I added animated walk
+// This is the 3D model I added animated walk to. It was exported from Blender
