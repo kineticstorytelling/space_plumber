@@ -13,7 +13,9 @@ function App() {
       {/* <Experience />       */}
       <ambientLight />
       <directionalLight position={[-5, 5, 5]} castShadow shadow-mapSize={1024} />
+      <group position={[0, -1, 0]}>
       <Spacepl2 />
+      <group/>  
     </Canvas>
     </>
   )
