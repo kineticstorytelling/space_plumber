@@ -14,7 +14,6 @@ function App() {
       <ambientLight />
       <directionalLight position={[-5, 5, 5]} castShadow shadow-mapSize={1024} />
       <Spacepl2 />
-      {/* <Spacepl11 /> */}
     </Canvas>
     </>
   )
