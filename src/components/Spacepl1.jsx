@@ -26,6 +26,7 @@ const Spacepl1 = (props) => {
   )
 }
 
+export default Spacepl1
 useGLTF.preload('./models/spacepl1.glb')
 
 // This is the 3D model I added animated walk to. It was exported from Blender
