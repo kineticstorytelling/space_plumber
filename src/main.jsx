@@ -6,7 +6,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <MantineProvider 
+    {/* <MantineProvider 
       withGlobalStyles 
       withNormalizeCSS 
       theme={{
@@ -20,8 +20,8 @@ createRoot(document.getElementById('root')).render(
           height: "100%",
         },
       })
-    }}>
+    }}> */}
     <App />
-    </MantineProvider>
+    {/* </MantineProvider> */}
   </StrictMode>,
 )
