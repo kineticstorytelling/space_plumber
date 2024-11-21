@@ -1,4 +1,5 @@
 import { OrbitControls } from "@react-three/drei";
+import Spacepl2 from "./Spacepl2";
 
 
 const Experience = () => {
@@ -11,6 +12,7 @@ const Experience = () => {
             castShadow 
             shadow-mapSize={1024} 
         />
+        <Spacepl2 />
         <mesh>
             <boxGeometry args={[5,5,5]} />
             <meshNormalMaterial />            
