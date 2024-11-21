@@ -10,8 +10,7 @@ function App() {
     <>
     <Canvas>
       <OrbitControls />
-      {/* <Experience />       */}
-      <Spacepl2 />
+      <Experience />      
     </Canvas>
     </>
   )
