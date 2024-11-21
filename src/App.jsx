@@ -1,6 +1,6 @@
 import { Canvas } from '@react-three/fiber'
 import Experience from './components/Experience'
-import Spacepl2 from './components/Spacepl2'
+import Spacepl11 from './components/Spacepl11'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <>
     <Canvas>
       {/* <Experience />       */}
-      <Spacepl2 />
+      <Spacepl11 />
     </Canvas>
     </>
   )
