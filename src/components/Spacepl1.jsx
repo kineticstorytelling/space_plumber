@@ -8,9 +8,9 @@ import { useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { SkeletonUtils } from 'three-stdlib'
 
-export function Model(props) {
+const Spacepl1 = (props) => {
   const group = React.useRef()
-  const { scene, animations } = useGLTF('/spacepl1.glb')
+  const { scene, animations } = useGLTF('./models/spacepl1.glb')
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone)
   const { actions } = useAnimations(animations, group)
@@ -26,6 +26,6 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('/spacepl1.glb')
+useGLTF.preload('./models/spacepl1.glb')
 
 // This is the 3D model I added animated walk to. It was exported from Blender
