@@ -1,14 +1,14 @@
 import { Canvas } from '@react-three/fiber'
 import Experience from './components/Experience'
-import Spacepl1 from './components/Spacepl1'
+import Spacepl2 from './components/Spacepl2'
 
 function App() {
 
   return (
     <>
     <Canvas>
-      <Experience />      
-      <Spacepl1 />
+      {/* <Experience />       */}
+      <Spacepl2 />
     </Canvas>
     </>
   )
