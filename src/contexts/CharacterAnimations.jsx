@@ -1,3 +1,4 @@
 import {createContext, useContext } from 'react';
 
-const CharacterAnimationContext
+const CharacterAnimationsContext = createContext({});
+
