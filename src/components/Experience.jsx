@@ -21,7 +21,7 @@ const Experience = () => {
         position={[0, -1, 0]}
         receiveShadow
       >
-        <planeBufferGeometry args={[10, 10, 1, 1]} />
+        {/* <planeBufferGeometry args={[10, 10, 1, 1]} /> */}
         <shadowMaterial transparent opacity={0.2} />
       </mesh>
         </>
