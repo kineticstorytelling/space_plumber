@@ -2,4 +2,9 @@ import {createContext, useContext } from 'react';
 
 const CharacterAnimationsContext = createContext({});
 
-export const CharacterAnimationsProvider = (props)
+export const CharacterAnimationsProvider = (props) => {
+
+    return(
+        
+    )
+}
