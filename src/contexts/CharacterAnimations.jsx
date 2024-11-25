@@ -6,7 +6,7 @@ export const CharacterAnimationsProvider = (props) => {
 
     return(
         <CharacterAnimationsContext.Provider value={{}}>
-            
+            {props.children}
         </CharacterAnimationsContext.Provider>
     )
 }
