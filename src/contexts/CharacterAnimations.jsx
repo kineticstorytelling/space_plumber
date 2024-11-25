@@ -11,4 +11,4 @@ export const CharacterAnimationsProvider = (props) => {
     );
 };
 
-
+export const useCharacterAnimations
