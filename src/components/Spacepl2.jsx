@@ -13,7 +13,15 @@ const Spacepl2 = (props) => {
   const { scene, animations } = useGLTF('./models/spacepl2.glb')
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone)
-  const { actions } = useAnimations(animations, group)
+
+  const {setAnimations} = useCharacterAnimations();
+  const { actions, names } = useAnimations(animations, group)
+  
+  useEffect(() => {
+    setAnimations(names);
+  }, [names])
+  
+  
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
