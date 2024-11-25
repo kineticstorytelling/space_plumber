@@ -8,5 +8,7 @@ export const CharacterAnimationsProvider = (props) => {
         <CharacterAnimationsContext.Provider value={{}}>
             {props.children}
         </CharacterAnimationsContext.Provider>
-    )
-}
+    );
+};
+
+
