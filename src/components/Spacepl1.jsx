@@ -7,13 +7,14 @@ import React from 'react'
 import { useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { SkeletonUtils } from 'three-stdlib'
+import { useCharacterAnimations } from '../contexts/CharacterAnimations'
 
 const Spacepl1 = (props) => {
   const group = React.useRef()
   const { scene, animations } = useGLTF('./models/spacepl1.glb')
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone)
-  const {setAnimations}
+  const {setAnimations} = useCharacterAnimations();
   const { actions, names } = useAnimations(animations, group)
   return (
     <group ref={group} {...props} dispose={null}>
