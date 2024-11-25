@@ -7,6 +7,8 @@ import React from 'react'
 import { useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { SkeletonUtils } from 'three-stdlib'
+import { useCharacterAnimations } from '../contexts/CharacterAnimations'
+
 
 const Spacepl2 = (props) => {
   const group = React.useRef()
