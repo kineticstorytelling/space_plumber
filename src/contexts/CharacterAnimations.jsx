@@ -12,5 +12,5 @@ export const CharacterAnimationsProvider = (props) => {
 };
 
 export const useCharacterAnimations = () => {
-    
+    return useContext(CharacterAnimationsContext);
 }
