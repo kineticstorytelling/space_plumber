@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import { MantineProvider } from '@mantine/core';
 import './index.css'
+import { CharacterAnimationsProvider } from './contexts/CharacterAnimations.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,7 +22,9 @@ createRoot(document.getElementById('root')).render(
         },
       })
     }}> */}
+    <CharacterAnimationsProvider>
     <App />
+    </CharacterAnimationsProvider>
     {/* </MantineProvider> */}
   </StrictMode>,
 )
